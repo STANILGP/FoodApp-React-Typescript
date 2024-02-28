@@ -1,0 +1,36 @@
+.Grid{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(5,auto);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.ADD{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: auto 
+}
+
+.AddButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  
+}
+
+.AddButton:hover {
+    background-color: #45a049;
+  }
+  
