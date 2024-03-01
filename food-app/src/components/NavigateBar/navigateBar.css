@@ -1,38 +1,9 @@
 .NavigateBar{
-    background-color: cyan;
+    background-color: rgb(250, 169, 22);
     height: auto;
     width: auto;
 }
 
-ul{
-    display: flex;
-    list-style: none;
-    align-items: center;
-}
-
-.NavigateBar ul li:last-child {
-    margin-left: auto;
-}
-
-.SearchButton{
-    float: left;
-    padding: 10px;
-    background: #2196F3;
-    color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    cursor: pointer;
-    width:auto; 
-}
-
-.SearchInput{
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: left;
-    background: #f1f1f1;
-    width:auto;
-}
 
 .Title{
     font-size: 24px;

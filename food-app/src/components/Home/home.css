@@ -15,8 +15,15 @@
     height: auto 
 }
 
+.Search{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: auto 
+}
+
 .AddButton {
-    background-color: #4CAF50;
+    background-color: rgb(250, 169, 22);
     border: none;
     color: white;
     padding: 12px 24px;
@@ -30,7 +37,43 @@
   
 }
 
+.SearchButton{
+    float: left;
+    padding: 10px;
+    background: rgb(20, 33, 61);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    cursor: pointer;
+    width:auto; 
+}
+
+.SearchInput{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    background: #f1f1f1;
+    width:auto;
+}
+
 .AddButton:hover {
-    background-color: #45a049;
+    background-color: rgb(226, 151, 1);
   }
   
+.Tags{
+    height: 100%;
+    top: 0;
+    background-color: rgb(109, 103, 110);
+    position: fixed;
+    z-index: 999;
+    padding-top: 60px;
+}
+.Tags a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
