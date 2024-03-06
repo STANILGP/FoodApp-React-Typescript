@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center; 
     align-items: center; 
-    height: auto 
+    height: auto;
 }
 
 .AddButton {
@@ -76,4 +76,11 @@
     color: black;
     display: block;
     transition: 0.3s;
+  }
+
+.Title{
+    color: #333;
+    text-align: center;
+    margin-block-start: 0px;
+    background-color: rgb(250, 169, 22);
   }

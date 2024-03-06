@@ -1,12 +1,13 @@
 import React from "react";
 import Box from "../Box/Box";
-import NavigateBar from "../NavigateBar/navigateBar";
+// import NavigateBar from "../NavigateBar/navigateBar";
 import './home.css';
+
 
 const FoodApp: React.FC= () =>{
     return (
-    <>
-        <NavigateBar></NavigateBar>
+    <div>
+       <h1 className="Title">My Food</h1>
         <div className="Tags">
             <a>Tags</a>
             <a>VAdsadsa</a>
@@ -33,7 +34,7 @@ const FoodApp: React.FC= () =>{
                 +
             </button>
          </div>
-    </>
+    </div>
     );
      
 };
